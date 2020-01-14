@@ -3171,7 +3171,6 @@
 			.wrapper {
 				padding: 4em 2.5em 2em 2.5em;
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3179,7 +3178,6 @@
 			.wrapper {
 				padding: 4em 2em 2em 2em;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3187,7 +3185,6 @@
 			.wrapper {
 				padding: 3em 2em 1em 2em;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3195,7 +3192,21 @@
 			.wrapper {
 				padding: 3em 2em 1em 2em;
 			}
+		}
 
+		.map-responsive {
+			overflow:hidden;
+			padding : 4em 2.5em 20em 2.5em;
+			position:relative;
+			height:0;
+		}
+
+		.map-responsive iframe {
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
 		}
 
 /* Banner */
