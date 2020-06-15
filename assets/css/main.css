@@ -1823,7 +1823,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #00BC8A;
+			background-color: #72378C;
 			color: #ffffff !important;
 		}
 
@@ -1832,7 +1832,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #00d69d;
+				background-color: #D4C2E0;
 			}
 
 			input[type="submit"].special:active,
@@ -1840,7 +1840,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #00a377;
+				background-color: #502463;
 			}
 
 /*#endregion*/
