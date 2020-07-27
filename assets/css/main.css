@@ -1501,8 +1501,19 @@
 		font-style: italic;
 	}
 
+	mark {
+		background-color: inherit;
+		font-size: xx-large;
+	}
+
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
+	}
+
+	p.centered {
+		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
