@@ -3554,3 +3554,7 @@
 		}
 
 		/*#endregion*/
+
+		.tabcontent {
+			display: none;
+		}
