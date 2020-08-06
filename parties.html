@@ -123,6 +123,7 @@
 										<div align="center">
 											<h3>Lune Noire</h3>
 										</div>
+										<div align="center"><img src="images/lune.jpg" alt="Lune Noire" class="image-small"></div>
 										<p></p>
 										<p><strong>Pitch</strong></p>
 										<p><i>Cette murder est inspirée de l’Univers de Castlevania, écrite par Antoine et Nicolas Ghossoub, MJté par Mathilde (Komurin) et Judith (Diju Astra).</i></p>
@@ -226,6 +227,7 @@
 													<div align="center">
 														<h3>Meurtre à Ankh-Morpork</h3>
 													</div>
+													<div align="center"><img src="images/ankh.jpg" alt="Lune Noire" class="image-small"></div>
 													<p></p>
 													<p><strong>Pitch</strong></p>
 													<p><i>Cette murder se déroule dans l'univers du Disque-Monde de Terry Pratchett, au cœur de la ville très réputée d'Ankh-Morpork. Il n'est pas nécessaire d'être familier avec cet univers, mais quelques clins d'oeils peuvent être faits avec la saga.</i></p>
@@ -255,6 +257,7 @@
 													<div align="center">
 														<h3>Les Sentes</h3>
 													</div>
+													<div align="center"><img src="images/sentes.jpg" alt="Lune Noire" class="image-small"></div>
 													<p><strong>Pitch</strong></p>
 													<p>Millevaux est un univers post-apocalyptique forestier. Les ruines de l’Europe. La civilisation s’est effondrée. Une forêt mutante et hostile recouvre tout le continent.<br>
 														Quatre menaces y pèsent : 
@@ -341,11 +344,13 @@
 									  tablinks = document.getElementsByClassName("tablinks");
 									  for (i = 0; i < tablinks.length; i++) {
 									  	tablinks[i].className = tablinks[i].className.replace(" active", "");
+									  	tablinks[i].className = tablinks[i].className.replace(" special", "");
 									  }
 
 									  // Show the current tab, and add an "active" class to the button that opened the tab
 									  document.getElementById(tab).style.display = "block";
 									  evt.currentTarget.className += " active";
+									  evt.currentTarget.className += " special"
 									} 
 
 									document.getElementById("button_1").click();
